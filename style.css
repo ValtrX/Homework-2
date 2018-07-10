@@ -51,6 +51,8 @@ li a:hover{
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+	text-align: center;
+	
 }
 
 .menu {
@@ -68,7 +70,6 @@ flex-wrap: wrap;
   height: 70px;
   overflow: hidden;
   z-index: 100;
-
 }
 
 .logo{
@@ -143,36 +144,39 @@ flex-wrap: wrap;
    margin: auto;
    display: flex;
    justify-content: space-evenly;
+   flex-wrap: wrap;
        }
 .Fila1 {
   width: 100%;
-  padding-left: 38px;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   }
 
 .articulo{
-  margin:10px;
-  padding:3px;
+ 
+  padding: 13px;
   height: 100%;
   position: relative;
   cursor: pointer;
+  
 }
 
 .articulo img{
   height: 100%;
   width: 100%;
   transition: all 0.8s;
+		
 }
 
 .articulo img:hover{
-  transform: scale(1.1);
+  transform: scale(1.09);
   transition: 1s;
 }
 
 .articulo2{
-  margin:10px;
+
   padding:3px;
   height: 100%;
   position: relative;
@@ -198,6 +202,18 @@ flex-wrap: wrap;
     border-radius: 6px;
     color: white;
     pointer-events: none;
+}
+.button_productos{
+    position: absolute;
+    top: 70%;
+    margin: auto;
+    background: #6f6f6fd9;
+    padding: 9px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    pointer-events: none;
+	left: 40%;
 }
 
 .button_b{
