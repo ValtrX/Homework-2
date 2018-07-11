@@ -9,12 +9,13 @@ body {
 
 nav ul {
   display: flex;
-  margin-right: 11%;
   list-style: none;
+  margin: 0;
   font-size: 30px;
 }
 nav li{
-  padding: 6% 42px;
+ background: white;
+ padding: 6% 42px;
 }
 li a{
   text-decoration: none;
@@ -52,14 +53,16 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 	text-align: center;
-	
+
 }
 
 .menu {
-  width: 57%;
+  background: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  overflow: hidden;
+  justify-content: space-around;
+  height: 100%;
 }
 
 .header{
@@ -68,22 +71,27 @@ flex-wrap: wrap;
   display: flex;
   width: 100%;
   height: 70px;
-  overflow: hidden;
   z-index: 100;
+  align-items: center;
 }
 
 .logo{
-  margin: -70px 0;
-  height: 300%;
+  overflow: hidden;
+  justify-content: center;
+  height: 100%;
 }
 .logo img {
-  height: 100%;
+  height: 300%;
+  margin: -70px 0px;
   cursor: pointer;
 }
 
 .search{
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20%;
 }
 
 .barra {
@@ -155,19 +163,19 @@ flex-wrap: wrap;
   }
 
 .articulo{
- 
+
   padding: 13px;
   height: 100%;
   position: relative;
   cursor: pointer;
-  
+
 }
 
 .articulo img{
   height: 100%;
   width: 100%;
   transition: all 0.8s;
-		
+
 }
 
 .articulo img:hover{
@@ -275,6 +283,31 @@ flex-wrap: wrap;
   border: 1px solid;
   height: 0;
 }
+
+
+@media screen and (max-width: 1230px){
+  .search{
+    display: none;}
+
+    .header{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;}
+  .menu{
+    width: 100%;
+    height: 61px;
+  }
+  .logo img {
+    height: 390%;
+    margin: -98px 0px;
+    cursor: pointer;
+  }
+
+ }
+
+
+
+
 
 
 
