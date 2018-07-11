@@ -48,12 +48,18 @@ li a:hover{
   transition: .5s;
 }
 
+
 .wrap{
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 	text-align: center;
-
+}
+.wrap2{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+	text-align: start;
 }
 
 .menu {
@@ -184,7 +190,6 @@ flex-wrap: wrap;
 }
 
 .articulo2{
-
   padding:3px;
   height: 100%;
   position: relative;
@@ -224,6 +229,9 @@ flex-wrap: wrap;
 	left: 40%;
 }
 
+.mb{
+  margin-bottom: 50px;
+}
 .button_b{
   text-decoration: none;
   font-weight: bold;
@@ -232,6 +240,9 @@ flex-wrap: wrap;
 
 .buttons{
   width: 68%;
+}
+.buttons2{
+  width: 95%;
 }
 
 .price{
@@ -305,6 +316,42 @@ flex-wrap: wrap;
 
  }
 
+ .Noticias{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+ .footer{
+   align-items: center;
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 3%;
+   width: 100%;
+   height: 211px;
+   background: #efefef;
+ }
+
+ .parte1{
+   padding-left: 60px;
+ }
+
+
+.parte1 ul{
+  list-style: none;
+  padding: 0;
+}
+
+.parte1 li{
+  cursor: pointer;
+  font-size: 18px;
+  margin: 7px;
+}
+
+.parte1 li:hover{
+  color: red;
+  background: none;
+}
 
 
 
